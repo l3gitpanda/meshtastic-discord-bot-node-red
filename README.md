@@ -18,3 +18,6 @@ My preffered MQTT Broker(you can use whatever you want): EMQX (https://github.co
 8. More to come with this tutorial, its just late
 
 Coming soon: how to add short name next to message
+
+Credit:
+Original Flow/Segmentation: https://github.com/scruplelesswizard/meshtastic-node-red
