@@ -2,8 +2,12 @@
 This is a guide on how to setup a Meshtastic node nonitoring discord bot using node red and MQTT. 
 (This is based on home assistant install but you can do this with standalone node red/MQTT broker)
 My preffered MQTT Broker(you can use whatever you want): EMQX (https://github.com/emqx/emqx) 
+## Premade flow: 
+![image](https://github.com/l3gitpanda/meshtastic-discord-bot-node-red/assets/12003346/d46c7ce4-6855-44a2-9987-b2976afa7f22)
+1. After importing the flow, go to your config section (cog in the top right of editor) and change the credentials of your MQTT broker and Discord Token. (You do not need to update InfluxDB as I am just using that as a logging database for nodes I can go into how that works in another guide if anyone wants a tutorial!
 
 
+Make your own basic Discord Bot:
 1. Make sure you have setup an MQTT broker. If you are running home assistant use either Mosquitto broker through the Addon store by default or EMQX with the community add on repository added. 
 2. Install Node red. you can do it through home assistant add on store if you have the community add on repository added
 3. Once you have installed node red, install these palattes (palletes can be found by going to the hamburger menu in the top right and going to manage palletes)
