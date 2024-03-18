@@ -1,5 +1,5 @@
 # meshtastic-discord-bot-node-red
-This is a guide on how to setup a Meshtastic node nonitoring discord bot using node red and MQTT. 
+This is a guide on how to setup a basic Meshtastic node nonitoring discord bot using node red and MQTT. 
 (This is based on home assistant install but you can do this with standalone node red/MQTT broker)
 My preffered MQTT Broker(you can use whatever you want): EMQX (https://github.com/emqx/emqx) 
 ## Premade flow: 
