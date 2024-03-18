@@ -5,7 +5,7 @@ My preffered MQTT Broker(you can use whatever you want): EMQX (https://github.co
 ## Premade flow: 
 ![image](https://github.com/l3gitpanda/meshtastic-discord-bot-node-red/assets/12003346/8895b658-5af2-4c9a-8211-bf7273b3275e)
 Features:
-- Discord Message Logging
+- Discord Message Logging with short name appended to beginning
 - Node Location Map Plotting
 - Ingestion from MQTT
 - Protobufs decoding
