@@ -32,7 +32,8 @@ Features:
 5. Create an MQTT in node that points towards your MQTT broker server (click on the pencil and create a new connection for your MQTT broker), and pick the topic that you want to follow(remember # is wildcard) ![image](https://github.com/l3gitpanda/meshtastic-discord-bot-node-red/assets/12003346/71ab1719-6c8a-4c5b-9ef3-d4fe71b9e9f1)
 6. Connect a decode meshtastic node
 7. Connect a DiscordMessageManager node, put your desired channel ID and add your discord token by clicking on the pencil icon and adding it there. (Explanation on how to create the discord bot and token coming later but its very easy)
-8. More to come with this tutorial, its just late
+8. You should now recieve messgaes to your discord server as long as you have MQTT enabled on the channels you are using and you have setup everything correctly.
+9. More to come with this tutorial.....
 
 ## Coming soon: how to add short name next to message
 
