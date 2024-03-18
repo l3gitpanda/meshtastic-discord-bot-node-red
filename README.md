@@ -4,6 +4,18 @@ This is a guide on how to setup a Meshtastic node nonitoring discord bot using n
 My preffered MQTT Broker(you can use whatever you want): EMQX (https://github.com/emqx/emqx) 
 ## Premade flow: 
 ![image](https://github.com/l3gitpanda/meshtastic-discord-bot-node-red/assets/12003346/8895b658-5af2-4c9a-8211-bf7273b3275e)
+Features:
+- Discord Message Logging
+- Node Location Map Plotting
+- Ingestion from MQTT
+- Protobufs decoding
+- Message deduplication by ID
+- Annotate integer-based node ids to hex
+- Annotate packets with known NodeInfo
+- Split for all current port numbers
+- Writing Mesh, Packet, Device, Environment and Position measurements to InfluxDB
+- Debug nodes for all outputs
+  
 
 1. After importing the flow, go to your config section (cog in the top right of editor) and change the credentials of your MQTT broker and Discord Token. (You do not need to update InfluxDB as I am just using that as a logging database for nodes I can go into how that works in another guide if anyone wants a tutorial!
 
@@ -25,4 +37,4 @@ My preffered MQTT Broker(you can use whatever you want): EMQX (https://github.co
 ## Coming soon: how to add short name next to message
 
 ## Credit:
-Original Flow/Segmentation: https://github.com/scruplelesswizard/meshtastic-node-red
+Original Flow/Segmentation template that I used to make this: https://github.com/scruplelesswizard/meshtastic-node-red
