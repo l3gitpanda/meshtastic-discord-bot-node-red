@@ -8,7 +8,7 @@ My preffered MQTT Broker(you can use whatever you want): EMQX (https://github.co
 1. After importing the flow, go to your config section (cog in the top right of editor) and change the credentials of your MQTT broker and Discord Token. (You do not need to update InfluxDB as I am just using that as a logging database for nodes I can go into how that works in another guide if anyone wants a tutorial!
 
 
-Make your own basic Discord Bot:
+## Make your own basic Discord Bot:
 1. Make sure you have setup an MQTT broker. If you are running home assistant use either Mosquitto broker through the Addon store by default or EMQX with the community add on repository added. 
 2. Install Node red. you can do it through home assistant add on store if you have the community add on repository added
 3. Once you have installed node red, install these palattes (palletes can be found by going to the hamburger menu in the top right and going to manage palletes)
@@ -22,7 +22,7 @@ Make your own basic Discord Bot:
 7. Connect a DiscordMessageManager node, put your desired channel ID and add your discord token by clicking on the pencil icon and adding it there. (Explanation on how to create the discord bot and token coming later but its very easy)
 8. More to come with this tutorial, its just late
 
-Coming soon: how to add short name next to message
+## Coming soon: how to add short name next to message
 
-Credit:
+## Credit:
 Original Flow/Segmentation: https://github.com/scruplelesswizard/meshtastic-node-red
